@@ -1,0 +1,8 @@
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\bin\Debug\Inheritances.exe.config
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\bin\Debug\Inheritances.exe
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\bin\Debug\Inheritances.pdb
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\obj\Debug\Inheritances.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\obj\Debug\Inheritances.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\obj\Debug\Inheritances.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\obj\Debug\Inheritances.exe
+C:\Users\Hp\source\repos\CsharpKurs\Inheritances\obj\Debug\Inheritances.pdb

@@ -1,6 +1,7 @@
 ﻿using Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,17 @@ namespace Interfaces
             CustomerManager customerManager = new CustomerManager();
             customerManager.Add(new OracleCustomerDal());
             customerManager.Add(new SqlServerCustomerDal());
+
+            ICustomerDal[] customerDals = new ICustomerDal[]
+            {
+                new SqlServerCustomerDal(),
+                new OracleCustomerDal()
+            };
+            foreach (var CustomerDal in customerDals)
+            {
+                CustomerDal.Add();
+            }
+
         }
     }
     interface IPerson //hiçbir zaman tek başına newlenemez.
