@@ -27,7 +27,22 @@ namespace Inheritances
         public int Id { get; set; }
         public string LastName { get; set; }
     }
-    class Student:Person
+
+    class Person1
+    {
+        public string FirstName { get; set; }
+        public int Id { get; set; }
+        public string LastName { get; set; }
+    }
+    interface Person2
+    {
+        
+    }
+
+    //NOT: sınıflar birden fazla implemente edilemez ama interfaceler edilebilir
+    //inheritancelar önce interfaceler sonra yazılır
+
+    class Student:Person,Person2
     {
         public string Department { get; set; }
        

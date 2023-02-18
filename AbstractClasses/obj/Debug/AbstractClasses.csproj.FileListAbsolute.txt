@@ -1,0 +1,8 @@
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\bin\Debug\AbstractClasses.exe.config
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\bin\Debug\AbstractClasses.exe
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\bin\Debug\AbstractClasses.pdb
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\obj\Debug\AbstractClasses.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\obj\Debug\AbstractClasses.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\obj\Debug\AbstractClasses.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\obj\Debug\AbstractClasses.exe
+C:\Users\Hp\source\repos\CsharpKurs\AbstractClasses\obj\Debug\AbstractClasses.pdb
