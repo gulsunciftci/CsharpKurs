@@ -1,0 +1,8 @@
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\bin\Debug\RemoDemo1.exe.config
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\bin\Debug\RemoDemo1.exe
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\bin\Debug\RemoDemo1.pdb
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\obj\Debug\RemoDemo1.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\obj\Debug\RemoDemo1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\obj\Debug\RemoDemo1.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\obj\Debug\RemoDemo1.exe
+C:\Users\Hp\source\repos\CsharpKurs\RemoDemo1\obj\Debug\RemoDemo1.pdb
