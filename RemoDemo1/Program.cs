@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace RemoDemo1
 {
-    internal class Program
+    internal class Program //bir classın defaultu internaldır internalları bu proje içinden istediğimiz noktadan çağırabiliriz
     {
+        //bir class private veya protected olamaz.içiçe classlarda bu mümkündür
         static void Main(string[] args)
         {
             CustomerManager customerManager = new CustomerManager();
@@ -20,7 +21,7 @@ namespace RemoDemo1
     }
     class CustomerManager
     {
-        public ILogger Logger { get; set; } //property
+        public ILogger Logger { get; set; } //property injection
         public void Add()
         {
        

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoDemo1", "RemoDemo1\RemoDemo1.csproj", "{E6B41CB7-FA13-4268-8E85-78E8264499B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{91D49277-4FB2-4BEA-9524-522A3AE8291C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{E6B41CB7-FA13-4268-8E85-78E8264499B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B41CB7-FA13-4268-8E85-78E8264499B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6B41CB7-FA13-4268-8E85-78E8264499B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D49277-4FB2-4BEA-9524-522A3AE8291C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D49277-4FB2-4BEA-9524-522A3AE8291C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D49277-4FB2-4BEA-9524-522A3AE8291C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D49277-4FB2-4BEA-9524-522A3AE8291C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
