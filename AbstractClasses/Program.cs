@@ -19,13 +19,13 @@ namespace AbstractClasses
             database1.Delete();
         }
     }
-    abstract class Database //newleyemeyiz.
+    abstract class Database //newleyemeyiz. //Birer inheritance tır.
     {
-        public void Add()
+        public void Add() //Add herkeste aynı
         {
             Console.WriteLine("Added by default");
         }
-        public abstract void Delete();
+        public abstract void Delete(); //delete farklı implemente edilmeli
     }
     class SqlServer : Database
     {
