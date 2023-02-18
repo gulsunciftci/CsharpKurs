@@ -1,0 +1,8 @@
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\bin\Debug\Dictionaries.exe.config
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\bin\Debug\Dictionaries.exe
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\bin\Debug\Dictionaries.pdb
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\obj\Debug\Dictionaries.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\obj\Debug\Dictionaries.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\obj\Debug\Dictionaries.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\obj\Debug\Dictionaries.exe
+C:\Users\Hp\source\repos\CsharpKurs\Dictionaries\obj\Debug\Dictionaries.pdb
