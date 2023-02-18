@@ -29,6 +29,11 @@ namespace Constructors
 
             PersonManager personManager = new PersonManager("Product");
             personManager.Add();
+
+            //Teachers teachers = new Teachers(); //Kızar
+            Teachers.Number = 10; //static nesneye direct erişim vardır
+
+
         }
     }
     class CustomerManager
@@ -135,6 +140,30 @@ namespace Constructors
             Message();
         }
     }
+    static class Teachers
+    {
+        //public int Number { get; set; } //kızar
+        public static int Number { get; set; }
 
+    }
+    static class Utilities
+    {
+        
+        public static void Validate()
+        {
+            Console.WriteLine("validation done");
+        }
+    }
+    class Manager //bir classın kendisi olmasada fieldları veya methotları statik olabilir
+    {
+        public static void DoSomething()
+        {
+            Console.WriteLine("done");
+        }
+        public void DoSomething2()
+        {
+            Console.WriteLine("done 2");
+        }
+    }
 }
 
