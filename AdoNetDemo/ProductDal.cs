@@ -43,7 +43,9 @@ namespace AdoNetDemo
 
                 };
                 products.Add(product);
-                   
+                reader.Close();
+                connection.Close();
+                return products;
             }
         }
         public DataTable GetAll2()
