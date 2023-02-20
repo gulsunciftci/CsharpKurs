@@ -62,5 +62,12 @@ namespace AdoNetDemo
             tbxNameUpdate.Text = dgwProducts.CurrentRow.Cells[1].Value.ToString();
             tbxStockAmountUpdate.Text = dgwProducts.CurrentRow.Cells[2].Value.ToString();
         }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(dgwProducts.CurrentRow.Cells[0].Value);
+            _productDal.Delete(id);
+            MessageBox.Show("Deleted");
+        }
     }
 }

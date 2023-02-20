@@ -41,6 +41,7 @@
             this.tbxNameUpdate = new System.Windows.Forms.TextBox();
             this.lblStockAmountUpdate = new System.Windows.Forms.Label();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgwProducts)).BeginInit();
             this.gbxAdd.SuspendLayout();
             this.gbxUpdate.SuspendLayout();
@@ -174,11 +175,22 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // btnRemove
+            // 
+            this.btnRemove.Location = new System.Drawing.Point(841, 30);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(110, 23);
+            this.btnRemove.TabIndex = 10;
+            this.btnRemove.Text = "Remove";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1186, 664);
+            this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.gbxUpdate);
             this.Controls.Add(this.gbxAdd);
             this.Controls.Add(this.dgwProducts);
@@ -209,6 +221,7 @@
         private System.Windows.Forms.TextBox tbxStockAmountUpdate;
         private System.Windows.Forms.TextBox tbxNameUpdate;
         private System.Windows.Forms.Label lblStockAmountUpdate;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
 
