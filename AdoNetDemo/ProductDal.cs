@@ -89,5 +89,18 @@ namespace AdoNetDemo
 
             _connection.Close();
         }
+
+        //güncelleme metodu
+        public void Update(Product product)
+        {
+            ConnectionControl();
+            SqlCommand command = new SqlCommand("Update Products set Name=@name,StockAmount=@stockAmount where Id=@id", _connection);
+            command.Parameters.AddWithValue("@name", product.Name);
+            command.Parameters.AddWithValue("@stockAmount", product.StockAmount);
+            command.Parameters.AddWithValue("@id", product.Id);
+            command.ExecuteNonQuery();
+
+            _connection.Close();
+        }
     }
 }
