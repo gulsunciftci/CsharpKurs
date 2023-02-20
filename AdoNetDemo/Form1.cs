@@ -21,12 +21,27 @@ namespace AdoNetDemo
         {
 
         }
-
+        ProductDal _productDal = new ProductDal();
         private void Form1_Load(object sender, EventArgs e)
         {
-            ProductDal productDal = new ProductDal();
+            
             //dgwProducts ın veri kaynağı olarak productDal daki GetAll() metodunu gösterdik
-            dgwProducts.DataSource = productDal.GetAll();
+            dgwProducts.DataSource = _productDal.GetAll();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            _productDal.Add(new Product
+            {
+                Name = tbxName.Text,
+                StockAmount = Convert.ToInt32(tbxStockAmount.Text)
+            });
+            MessageBox.Show("Product added!");
+        }
+
+        private void lblName_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
