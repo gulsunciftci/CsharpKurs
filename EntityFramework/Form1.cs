@@ -16,29 +16,60 @@ namespace EntityFramework
         {
             InitializeComponent();
         }
-
+        ProductDal _productDal = new ProductDal();
         private void Form1_Load(object sender, EventArgs e)
         {
-            using (ETradeContext context = new ETradeContext())
-            {
-                //ETradeContext pahalı bir nesnedir çok yer kaplar
-                //using= blok bittiği anda nesneyi zorla bellekten atar buna dispos denir
-
-                dgwProducts.DataSource = context.Products.ToList();
-                //tabloya erişme kodu budur
+            LoadProducts();
 
 
-                //connection stringi App.config içine <configurationString tagının altına yazmalıyız "server=(localdb)\ProjectModels;initial catalog=ETrade;integrated security=true"
-                //Aşağıdaki kodu ekle
-                // < connectionStrings >
-                //< add name = "ETradeContext"
-                //   connectionString = "server=(localdb)\ProjectModels;initial catalog=ETrade;integrated security=true"
-                //    providerName = "System.Data.SqlClient" />
-                //</ connectionStrings >
-
-
-
-            }
         }
+        private void LoadProducts()
+        {
+            dgwProducts.DataSource = _productDal.GetAll();
+        }
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            _productDal.Add(new Product
+            {
+
+                Name = tbxName.Text,
+                StockAmount = Convert.ToInt32(tbxStockAmount.Text)
+
+            });
+            LoadProducts();
+            MessageBox.Show("Added");
+
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            _productDal.Update(new Product
+            {
+                Id = Convert.ToInt32(dgwProducts.CurrentRow.Cells[0].Value),
+                Name = tbxNameUpdate.Text,
+                StockAmount = Convert.ToInt32(tbxStockAmountUpdate.Text)
+
+            });
+            LoadProducts();
+            MessageBox.Show("Updated");
+        }
+
+        private void dgwProducts_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            tbxNameUpdate.Text = dgwProducts.CurrentRow.Cells[1].Value.ToString();
+            tbxStockAmountUpdate.Text = dgwProducts.CurrentRow.Cells[2].Value.ToString();
+            
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            _productDal.Delete(new Product
+            {
+                Id= Convert.ToInt32(dgwProducts.CurrentRow.Cells[0].Value)
+            });
+            LoadProducts();
+            MessageBox.Show("Deleted");
+        }
+        
     }
 }
