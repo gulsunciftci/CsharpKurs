@@ -36,11 +36,11 @@
             this.gbxAdd = new System.Windows.Forms.GroupBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.gbxUpdate = new System.Windows.Forms.GroupBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.lblNameUpdate = new System.Windows.Forms.Label();
             this.tbxStockAmountUpdate = new System.Windows.Forms.TextBox();
             this.tbxNameUpdate = new System.Windows.Forms.TextBox();
             this.lblStockAmountUpdate = new System.Windows.Forms.Label();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgwProducts)).BeginInit();
             this.gbxAdd.SuspendLayout();
@@ -133,6 +133,16 @@
             this.gbxUpdate.TabStop = false;
             this.gbxUpdate.Text = "Update a product";
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(193, 130);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 29);
+            this.btnUpdate.TabIndex = 9;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
             // lblNameUpdate
             // 
             this.lblNameUpdate.AutoSize = true;
@@ -164,16 +174,6 @@
             this.lblStockAmountUpdate.Size = new System.Drawing.Size(86, 16);
             this.lblStockAmountUpdate.TabIndex = 5;
             this.lblStockAmountUpdate.Text = "Stock Amount";
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(193, 130);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 29);
-            this.btnUpdate.TabIndex = 9;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnRemove
             // 
