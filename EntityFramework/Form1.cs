@@ -31,7 +31,7 @@ namespace EntityFramework
         {
             //var result = _productDal.GetAll().Where(p=>p.Name.ToLower().Contains(key.ToLower())).ToList(); //collectiondan alınıyor
                                                                                                               //C# küçük büyük harf duyarlıdır
-            var result = _productDal.GetByName(key);
+            var result = _productDal.GetByName(key); //veri tabanından veriler alınıyor(linq ile)
             dgwProducts.DataSource = result;
         }
         private void btnAdd_Click(object sender, EventArgs e)
