@@ -66,41 +66,13 @@ namespace Generics
         }
     }
 
-    class CustomerDal : ICustomerDal
+    class CustomerDal 
     {
 
         public string FirstName { get; set; }
 
 
-        public void Add(CustomerDal product)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Custom()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(CustomerDal product)
-        {
-            throw new NotImplementedException();
-        }
-
-        public CustomerDal Get(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<CustomerDal> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(CustomerDal product)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 
     interface IProductDal
@@ -112,13 +84,38 @@ namespace Generics
         void Update(ProductDal product);
     }
 
-    interface ICustomerDal:IRepository<CustomerDal> //customerDala özel bir işlem yaparken kullanılabilir
+    interface ICustomerDal:IRepository<Student> //customerDala özel bir işlem yaparken kullanılabilir
     {
         void Custom();
     }
 
-    interface IRepository<T> //generic repository
-                             //Artık product ve customer için çalışabilir
+    ////Generic kısıtı
+    //interface IStudentDal<T> : IRepository<string> //kızar
+    //{
+
+    //}
+
+    //Generic kısıtı
+    interface IStudentDal<T> : IRepository<Student> 
+    {
+
+    }
+
+    class Student : IEntity { 
+    
+    }
+
+    interface IEntity
+    {
+
+    }
+
+
+    //generic repository
+    //Artık product ve customer için çalışabilir
+    interface IRepository<T> where T : class,IEntity, new() // Generic kısıtı
+        //T her zaman  IEntity den implemente etmeli                         
+        //new herzaman en sonda olmalı
     {
         List<T> GetAll();
         T Get(int id);
