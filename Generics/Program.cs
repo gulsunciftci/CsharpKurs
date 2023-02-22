@@ -116,6 +116,7 @@ namespace Generics
     interface IRepository<T> where T : class,IEntity, new() // Generic kısıtı
         //T her zaman  IEntity den implemente etmeli                         
         //new herzaman en sonda olmalı
+        //değer tip yapmak isteseydik class,IEntity, new() siler sstruct yazardık
     {
         List<T> GetAll();
         T Get(int id);
