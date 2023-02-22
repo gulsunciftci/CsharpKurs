@@ -1,0 +1,8 @@
+C:\Users\Hp\source\repos\CsharpKurs\Generics\bin\Debug\Generics.exe.config
+C:\Users\Hp\source\repos\CsharpKurs\Generics\bin\Debug\Generics.exe
+C:\Users\Hp\source\repos\CsharpKurs\Generics\bin\Debug\Generics.pdb
+C:\Users\Hp\source\repos\CsharpKurs\Generics\obj\Debug\Generics.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\CsharpKurs\Generics\obj\Debug\Generics.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\CsharpKurs\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\CsharpKurs\Generics\obj\Debug\Generics.exe
+C:\Users\Hp\source\repos\CsharpKurs\Generics\obj\Debug\Generics.pdb
