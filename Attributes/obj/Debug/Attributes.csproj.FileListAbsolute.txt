@@ -1,0 +1,8 @@
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\bin\Debug\Attributes.exe.config
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\bin\Debug\Attributes.exe
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\bin\Debug\Attributes.pdb
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\obj\Debug\Attributes.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\obj\Debug\Attributes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\obj\Debug\Attributes.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\obj\Debug\Attributes.exe
+C:\Users\Hp\source\repos\CsharpKurs\Attributes\obj\Debug\Attributes.pdb
