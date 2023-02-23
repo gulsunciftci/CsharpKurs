@@ -1,0 +1,8 @@
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\bin\Debug\Delegates.exe.config
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\bin\Debug\Delegates.exe
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\bin\Debug\Delegates.pdb
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\obj\Debug\Delegates.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\obj\Debug\Delegates.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\obj\Debug\Delegates.exe
+C:\Users\Hp\source\repos\CsharpKurs\Delegates\obj\Debug\Delegates.pdb
